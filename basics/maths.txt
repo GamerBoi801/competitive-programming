@@ -1,0 +1,13 @@
+arithmetic progression: diff b/w no, is const(k)
+a: fist term      d: const difference   n: nth term   L: last term
+n = a + (n-1)d
+Sum till n  = n(a+L)/2
+
+Geometric progression: ratio b/w consecutive numbers is constant
+r: common ratio   
+n = ak^(n-1)
+sum till n = a(c - r^n) / 1-r
+
+
+Sum Theory: Σ (Sum Symbol) used for adding up numbers
+Σ, n , x=1  
