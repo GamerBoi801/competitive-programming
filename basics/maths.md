@@ -160,4 +160,3 @@ contains all even integers.
 
 ---
 
-*End of Set Theory Summary*
