@@ -9,7 +9,7 @@ class Car {
             model = "Unknown";
         }
 
-        //constructor: same as class, no return type, same as def __init__
+        //parameters constructor: same as class, no return type, same as def __init__
         Car(string modelName) {
             model = modelName;
         }
