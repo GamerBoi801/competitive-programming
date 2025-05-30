@@ -40,7 +40,7 @@ int main() {
     
     if ((n != c.length())) {
         cout << "NO" << endl;
-        return 1;
+        return 0;
     }
     int count_letters[26] = {0}; // keeps count of all the letters and is of length 26 (A-Z) for str a+b
     int count_pile_letters[26] = {0};  // for str c
@@ -62,7 +62,7 @@ int main() {
     for (int j = 0; j < 26; j++) {
         if (count_letters[j] != count_pile_letters[j]) {
             cout << "NO" << endl;
-            return 1;
+            return 0;
         }
     }
     cout << "YES" << endl;
