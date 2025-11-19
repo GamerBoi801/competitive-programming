@@ -8,15 +8,8 @@ int main() {
     string n  = "";
     cin >> n;
 
-    int count_ques = 0;
-    for(int i = 0;  i< n.length(); i ++) {
-        if(n[i] == '?') {
-            count_ques++;
-        }
-    }
-
-    int possible_nums[] = {0, 1};
-
+    // classic minimax scenario
+    
 
     return 0;
 }
