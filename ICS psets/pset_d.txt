@@ -1,0 +1,3 @@
+Current objectives
+- Common word placement (a pt where the same char of both words occur)
+- retry and backtracking logic (worst case scenario where the )
