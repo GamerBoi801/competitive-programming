@@ -3,9 +3,14 @@
 using namespace std;
 
 int main() {
-    int k; cin>> k;
+    int n; cin >>n; 
+    // dimension of the chess board
 
-    for(int _ = 0; _ < k; _++) {
+    for(int k = 1; k <= n; k++) {
+        // no. of ways 2 knights can be plced on a kxk chessbaord
+        if (k == 1) {
+            cout << 0 << endl;
+        }  
 
     }
     return 0;
