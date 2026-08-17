@@ -32,10 +32,16 @@ vector<vector<int>> convert290(const vector<vector<int>>& matrix, int n) {
     return transformed;
 }
 
-int changes(const vector<vector<int>> &original, const vector<vector<int>> &transformed, int n) {
+int min_changes(const vector<vector<int>> &original, const vector<vector<int>> &transformed, int n) {
+    int c = 0;
     for(int i= 0 ; i< n;i ++) {
-        for(int ju = 0; j < n)
+        for(int j= 0; j < n; j++) {
+            if (original[i]][j] != transformed[i][j]) {
+                c++;
+            }
+        }
     }
+    return c;
 }
 
 int main() {
